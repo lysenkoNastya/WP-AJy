@@ -14,7 +14,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
     <div class="container">
         <div class="row ">
             <a class="col-sm-6" href="#">
-                <image class="create-section-list-item-img" src="<?php the_field('why_us_image'); ?>" alt="why_us_image">
+                <img class="create-section-list-item-img" src="<?php the_field('why_us_image'); ?>" alt="why_us_image">
             </a>
             <div class="why-us col-sm-6">
                 <h3 class="why-us-title d-block">
@@ -42,7 +42,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
     <div class="container">
         <div class="row">
             <a class="col-sm-5" href="#">
-                <image class="create-section-list-item-img" src="<?php the_field('welcome_image'); ?>" alt="welcome_image">
+                <img class="create-section-list-item-img" src="<?php the_field('welcome_image'); ?>" alt="welcome_image">
             </a>
             <div class="why-us col-sm-7">
                 <h3 class="welcome-title d-block">
@@ -67,7 +67,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
         <ul class="offering-list row">
             <li class="offering-list-item col-sm-4">
                 <a class="offering-list-item-link" href="#">
-                    <image class="offering-list-item-img" src="<?php the_field('offering_block_image1'); ?>" alt="offering_block_image1">
+                    <img class="offering-list-item-img" src="<?php the_field('offering_block_image1'); ?>" alt="offering_block_image1">
                 </a>
                 <h3 class="offering-list-item-title">
                     <?php the_field('offering_block_title1'); ?>
@@ -78,7 +78,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
             </li>
             <li class="offering-list-item col-sm-4">
                <a class="" href="#">
-                   <image class="offering-list-item-img" src="<?php the_field('offering_block_image2'); ?>" alt="offering_block_image2">
+                   <img class="offering-list-item-img" src="<?php the_field('offering_block_image2'); ?>" alt="offering_block_image2">
                </a>
                <h3 class="offering-list-item-title">
                    <?php the_field('offering_block_title2'); ?>
@@ -89,7 +89,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
             </li>
             <li class="offering-list-item col-sm-4">
                 <a class="" href="#">
-                    <image class="offering-list-item-img" src="<?php the_field('offering_block_image3'); ?>" alt="offering_block_image3">
+                    <img class="offering-list-item-img" src="<?php the_field('offering_block_image3'); ?>" alt="offering_block_image3">
                 </a>
                 <h3 class="offering-list-item-title">
                     <?php the_field('offering_block_title3'); ?>
