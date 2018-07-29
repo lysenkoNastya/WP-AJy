@@ -35,6 +35,7 @@ $color-section: #004966;
 
 .why-us-scroll {
   margin-top: 150px;
+
   &-link-icon {
     font-family: FontAwesome;
     content: '\f107';
@@ -79,7 +80,7 @@ $color-section: #004966;
 
     @media (min-width: 992px) {
       margin: 30px 120px 90px;
-  }
+    }
   }
 
   .offering-list-item-img {
