@@ -9565,6 +9565,12 @@ a.skip-link {
 .main-bg {
   background-color: #2c3e50; }
 
+.navbar-light .navbar-nav .nav-link {
+  color: #d5d8dc; }
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #ff4848; }
+
 .main-menu {
   padding: 20px 0; }
   .main-menu .main-menu-link,
@@ -9575,11 +9581,6 @@ a.skip-link {
     color: #d5d8dc;
     font-weight: 300;
     font-size: 1rem; }
-    .main-menu .main-menu-link:hover, .main-menu .main-menu-link:active, .main-menu .main-menu-link.active,
-    .main-menu .nav-link:hover,
-    .main-menu .nav-link:active,
-    .main-menu .nav-link.active {
-      color: #ff4848; }
     @media (min-width: 992px) {
       .main-menu .main-menu-link,
       .main-menu .nav-link {
@@ -9610,7 +9611,7 @@ a.skip-link {
 
 .contact-us-section {
   padding: 115px 0 20px;
-  background-image: url(http://localhost/wp-ajy/wp-content/uploads/2018/03/contact-bg-image.png); }
+  background-image: url(../image/contact-bg-image.png); }
 
 .contact-us-text {
   color: #fff;
@@ -9851,6 +9852,12 @@ a:link.page-numbers {
 .main-bg {
   background-color: #2c3e50; }
 
+.navbar-light .navbar-nav .nav-link {
+  color: #d5d8dc; }
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #ff4848; }
+
 .main-menu {
   padding: 20px 0; }
   .main-menu .main-menu-link,
@@ -9861,11 +9868,6 @@ a:link.page-numbers {
     color: #d5d8dc;
     font-weight: 300;
     font-size: 1rem; }
-    .main-menu .main-menu-link:hover, .main-menu .main-menu-link:active, .main-menu .main-menu-link.active,
-    .main-menu .nav-link:hover,
-    .main-menu .nav-link:active,
-    .main-menu .nav-link.active {
-      color: #ff4848; }
     @media (min-width: 992px) {
       .main-menu .main-menu-link,
       .main-menu .nav-link {
@@ -9896,7 +9898,7 @@ a:link.page-numbers {
 
 .contact-us-section {
   padding: 115px 0 20px;
-  background-image: url(http://localhost/wp-ajy/wp-content/uploads/2018/03/contact-bg-image.png); }
+  background-image: url(../image/contact-bg-image.png); }
 
 .contact-us-text {
   color: #fff;
@@ -10029,6 +10031,12 @@ a:visited {
 .main-bg {
   background-color: #2c3e50; }
 
+.navbar-light .navbar-nav .nav-link {
+  color: #d5d8dc; }
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #ff4848; }
+
 .main-menu {
   padding: 20px 0; }
   .main-menu .main-menu-link,
@@ -10039,11 +10047,6 @@ a:visited {
     color: #d5d8dc;
     font-weight: 300;
     font-size: 1rem; }
-    .main-menu .main-menu-link:hover, .main-menu .main-menu-link:active, .main-menu .main-menu-link.active,
-    .main-menu .nav-link:hover,
-    .main-menu .nav-link:active,
-    .main-menu .nav-link.active {
-      color: #ff4848; }
     @media (min-width: 992px) {
       .main-menu .main-menu-link,
       .main-menu .nav-link {
@@ -10074,7 +10077,7 @@ a:visited {
 
 .contact-us-section {
   padding: 115px 0 20px;
-  background-image: url(http://localhost/wp-ajy/wp-content/uploads/2018/03/contact-bg-image.png); }
+  background-image: url(../image/contact-bg-image.png); }
 
 .contact-us-text {
   color: #fff;
@@ -10158,6 +10161,12 @@ a:visited {
 .main-bg {
   background-color: #2c3e50; }
 
+.navbar-light .navbar-nav .nav-link {
+  color: #d5d8dc; }
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #ff4848; }
+
 .main-menu {
   padding: 20px 0; }
   .main-menu .main-menu-link,
@@ -10168,11 +10177,6 @@ a:visited {
     color: #d5d8dc;
     font-weight: 300;
     font-size: 1rem; }
-    .main-menu .main-menu-link:hover, .main-menu .main-menu-link:active, .main-menu .main-menu-link.active,
-    .main-menu .nav-link:hover,
-    .main-menu .nav-link:active,
-    .main-menu .nav-link.active {
-      color: #ff4848; }
     @media (min-width: 992px) {
       .main-menu .main-menu-link,
       .main-menu .nav-link {
@@ -10203,7 +10207,7 @@ a:visited {
 
 .contact-us-section {
   padding: 115px 0 20px;
-  background-image: url(http://localhost/wp-ajy/wp-content/uploads/2018/03/contact-bg-image.png); }
+  background-image: url(../image/contact-bg-image.png); }
 
 .contact-us-text {
   color: #fff;

@@ -11,8 +11,6 @@ $border-search: #c0d2d9;
   max-width: 1150px;
 }
 
-
-
 .blog-section {
   padding: 90px 0;
   position: relative;
@@ -101,8 +99,6 @@ a:hover.blog-section-list-item-title {
     color: $content-color;
     font-size: 1rem;
   }
-
-
 }
 
 .widget_search,
@@ -140,12 +136,14 @@ a:hover.blog-section-list-item-title {
 }
 
 .wp-post-image {
+
   &:before {
     position: absolute;
     font-family: FontAwesome;
     content: "\f041";
   }
 }
+
 
 .navigation {
   margin: 30px 30% 50px;
@@ -160,7 +158,6 @@ a.page-numbers,
   margin-left: -1px;
   line-height: 1.25;
   background-color: #fff;
-
 }
 
 a:link.page-numbers{
@@ -203,7 +200,6 @@ a:link.page-numbers{
   background-color: #fff;
 }
 
-
 .list-item-text-block a:link,
 .list-item-text-block a:visited {
   color: $color-text;
@@ -212,5 +208,7 @@ a:link.page-numbers{
 .list-item-text-block a:hover {
   color: $brand-color;
 }
+
+
   @import "header";
   @import "footer";

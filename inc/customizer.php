@@ -175,6 +175,6 @@ if ( ! function_exists( 'customize_contact_address' ) ) {
                 'section' => 'contact_address_section',
                 'settings' => 'contact_address',
             )));
-}
-}
+        }
+    }
 add_action('customize_register', 'customize_contact_address');

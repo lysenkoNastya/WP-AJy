@@ -13,7 +13,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
    <div class="container-fluid">
        <header class="blog-section-header text-center">
            <div class="container">
-               <h2 class="general-title blog-section-header-title "><?php esc_html_e('Blog Posts', 'understrap-child-master'); ?></h2>
+               <h2 class="general-title blog-section-header-title "><?php esc_html_e('Blog Posts', 'understrap'); ?></h2>
            </div>
        </header>
    </div>
@@ -45,7 +45,7 @@ $container   = get_theme_mod( 'understrap_container_type' );
                             <span class="blog-section-list-item-info-like">
                                 <i class="fal fa-clock"></i>
                             </span>
-                            <span class="date"><?php the_date('m, d, y,'); ?></span>
+                            <span class="date"><?php echo get_the_date('m, d, y'); ?></span>
                         </div>
                     </div>
                 </li>

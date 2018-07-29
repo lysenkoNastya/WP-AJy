@@ -10,6 +10,13 @@ $header-menu-color: #d5d8dc;
   background-color: $header-color;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: $header-menu-color;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+  color: $brand-color;
+}
 .main-menu {
   padding: 20px 0;
 
@@ -21,12 +28,6 @@ $header-menu-color: #d5d8dc;
       color: $header-menu-color;
       font-weight: 300;
       font-size: 1rem;
-
-      &:hover,
-      &:active,
-      &.active{
-        color: $brand-color;
-      }
 
       @media (min-width: 992px) {
         margin-left: 5px;

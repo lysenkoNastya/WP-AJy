@@ -33,7 +33,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<a class="skip-link screen-reader-text sr-only" href="#content"><?php esc_html_e( 'Skip to content',
 		'understrap' ); ?></a>
 
-		<nav class="navbar navbar-expand-md ">
+		<nav class="navbar navbar-expand-md navbar-light text-white">
 
 		<?php if ( 'container' == $container ) : ?>
 			<div class="container">
@@ -56,17 +56,17 @@ $container = get_theme_mod( 'understrap_container_type' );
 						the_custom_logo();
 					} ?><!-- end custom logo -->
 
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
+				<button class="navbar-toggler navbar-toggler-right btn-header" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
 				<!-- The WordPress Menu goes here -->
 				<?php wp_nav_menu(
 					array(
 						'theme_location'  => 'primary',
-                        'container_class' => 'navbar navbar-toggleable-md navbar-fixed-top  navbar-default main-menu',
-                        'container_id'    => 'navbarNav',
-                        'menu_class'      => 'navbar-nav main-menu-list-nav',
+                        'container_class' => 'collapse navbar-collapse justify-content-end main-menu text-right',
+                        'container_id'    => 'navbarNavDropdown',
+                        'menu_class'      => 'navbar-nav main-menu-list-nav ',
                         'fallback_cb'     => '',
                         'menu_id'         => '',
                         'walker'          => new understrap_WP_Bootstrap_Navwalker(),
